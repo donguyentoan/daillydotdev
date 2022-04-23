@@ -26,8 +26,13 @@
     font-size: 1.0625rem;
     line-height: 1.5rem;
     font-weight: 700;
+    padding: 10px 23px;
 
 
+}
+.section1_img img {
+    padding: 20px 8px;
+    border-radius: 40px
 }
 .section1_column1 {
     width: 318px;
@@ -37,8 +42,17 @@
     border-radius: 12px;
 
 }
+.section1_column {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+
+}
 .section1_text_buttom {
     color: white;
+}
+.section1_text_buttom {
+    margin: 0px 23px;
 }
 header {
     width: 100%;
@@ -73,4 +87,38 @@ header {
     background: white;
     color: black;
 
+}
+.section1_img_firt img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+
+}
+.section_dot {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.3;
+}
+.section_first {
+    display: flex;
+    justify-content: space-between;
+
+}
+.section_dot span {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: white;
+    margin: 1px;
+
+}
+.section_dot:hover {
+    opacity: 1;
+    background: red;
 }
