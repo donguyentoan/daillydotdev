@@ -2,3 +2,41 @@
     padding: 0;
     margin: 0;
 }
+.container {
+    background: black;
+    width: 100%;
+    height: 500px
+}
+.section1_text_heading h1 {
+    color: white;
+    font-size: 1.0625rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+
+}
+.section1_img img {
+    width: 302px;
+    height: 160px;
+
+}
+.section1_text h1 {
+    color: white;
+    font-size: 1.0625rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+
+
+}
+.section1_column1 {
+    width: 318px;
+    height: 342px;
+    background: #1c1f26;
+    border: 1px solid #383d47;
+    border-radius: 12px;
+
+}
+.section1_text_buttom {
+    color: white;
+}
