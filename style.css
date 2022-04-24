@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    
 }
 .container {
     background: black;
@@ -163,7 +164,7 @@ header {
 }
 .section_dot:hover {
     opacity: 1;
-    background: red;
+    background: #2e313a;
 }
 .sidebar-widget ul li:hover {
     color: white;
@@ -176,3 +177,37 @@ header {
 .sidebar-widget ul li svg {
     color: white;
 }
+.section1_icon svg{
+    background: #a8b3cf;
+    opacity: 0.3;
+    width: 23px;
+    height: 25px;
+    margin-right: 14px;
+}
+.section1_icon p {
+    opacity: 0.5;
+
+}
+
+.section1_icon:hover .section1_icon1 {
+    opacity: 1;
+    background-color: green;
+}
+.section1_icon:hover p {
+    color: white;
+}
+
+.section1_icon {
+    display: flex;
+    margin-left: 28px;
+    justify-content: space-around;
+}
+.section1_icon1 {
+    width: 25px;
+    height: 23px;
+    border-radius: 2px;
+}
+.section1_icon .section_icon1 {
+    display: flex;
+}
+
