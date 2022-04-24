@@ -210,4 +210,9 @@ header {
 .section1_icon .section_icon1 {
     display: flex;
 }
+.section1_column2 {
+    border: 1px solid #383d47;
+    border-radius: 12px;
+
+}
 
